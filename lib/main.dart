@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:guinita_profile/profile/components/profile_screen.dart';
+import 'package:guinita_profile/view/my_profile.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,7 +29,7 @@ class MyStatelessWidget extends StatelessWidget {
         ),
         body: Container(
             child: Center(
-          child: ProfileScreen(),
+          child: MyProfilePage(),
         )));
   }
 }
