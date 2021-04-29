@@ -1,4 +1,4 @@
-define(['dart_sdk', 'packages/flutter/src/material/app.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/guinita_profile/profile/components/profile_screen.dart'], (function load__packages__guinita_profile__main_dart(dart_sdk, packages__flutter__src__material__app$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__painting__strut_style$46dart, packages__guinita_profile__profile__components__profile_screen$46dart) {
+define(['dart_sdk', 'packages/flutter/src/material/app.dart', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/painting/strut_style.dart', 'packages/guinita_profile/view/my_profile.dart'], (function load__packages__guinita_profile__main_dart(dart_sdk, packages__flutter__src__material__app$46dart, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__painting__strut_style$46dart, packages__guinita_profile__view__my_profile$46dart) {
   'use strict';
   const core = dart_sdk.core;
   const ui = dart_sdk.ui;
@@ -15,7 +15,7 @@ define(['dart_sdk', 'packages/flutter/src/material/app.dart', 'packages/flutter/
   const scaffold = packages__flutter__src__material__icon_button$46dart.src__material__scaffold;
   const app_bar = packages__flutter__src__material__icon_button$46dart.src__material__app_bar;
   const text_style = packages__flutter__src__painting__strut_style$46dart.src__painting__text_style;
-  const profile_screen = packages__guinita_profile__profile__components__profile_screen$46dart.profile__components__profile_screen;
+  const my_profile = packages__guinita_profile__view__my_profile$46dart.view__my_profile;
   var main = Object.create(dart.library);
   dart._checkModuleNullSafetyMode(false);
   var T = {
@@ -385,7 +385,7 @@ define(['dart_sdk', 'packages/flutter/src/material/app.dart', 'packages/flutter/
   dart.setLibraryUri(main.MyApp, I[0]);
   main.MyStatelessWidget = class MyStatelessWidget extends framework.StatelessWidget {
     build(context) {
-      return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({title: new text.Text.new("PROFILE", {style: new text_style.TextStyle.new({fontWeight: ui.FontWeight.bold}), $creationLocationd_0dea112b090073317d4: C[13] || CT.C13}), $creationLocationd_0dea112b090073317d4: C[17] || CT.C17}), body: new container.Container.new({child: new basic.Center.new({child: new profile_screen.ProfileScreen.new({$creationLocationd_0dea112b090073317d4: C[20] || CT.C20}), $creationLocationd_0dea112b090073317d4: C[21] || CT.C21}), $creationLocationd_0dea112b090073317d4: C[24] || CT.C24}), $creationLocationd_0dea112b090073317d4: C[27] || CT.C27});
+      return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({title: new text.Text.new("PROFILE", {style: new text_style.TextStyle.new({fontWeight: ui.FontWeight.bold}), $creationLocationd_0dea112b090073317d4: C[13] || CT.C13}), $creationLocationd_0dea112b090073317d4: C[17] || CT.C17}), body: new container.Container.new({child: new basic.Center.new({child: new my_profile.MyProfilePage.new({$creationLocationd_0dea112b090073317d4: C[20] || CT.C20}), $creationLocationd_0dea112b090073317d4: C[21] || CT.C21}), $creationLocationd_0dea112b090073317d4: C[24] || CT.C24}), $creationLocationd_0dea112b090073317d4: C[27] || CT.C27});
     }
   };
   (main.MyStatelessWidget.new = function(opts) {
